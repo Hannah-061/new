@@ -523,7 +523,11 @@ new/
 │   │   ├── types.ts               第 5 節的資料格式
 │   │   ├── ChatService.ts         合約（介面定義）
 │   │   ├── MockChatService.ts     階段一：假後端
-│   │   ├── SupabaseChatService.ts 階段二：真後端
+│   │   ├── mock/                  假後端用的零件（階段二可整個移除）
+│   │   │   ├── storage.ts           用 localStorage 當資料表（訊息、代號保留）
+│   │   │   └── bots.ts              示範機器人
+│   │   ├── SupabaseChatService.ts 階段二才新增：真後端
+│   │   ├── identity.ts            這個瀏覽器的 client_id、記住上次的代號
 │   │   ├── createChatService.ts   依設定決定用哪一個
 │   │   ├── rules.ts               代號格式、訊息檢查、限流、30 秒緩衝
 │   │   ├── linkify.ts             網址轉連結（只認 http/https）
@@ -542,7 +546,7 @@ new/
 ├── vite.config.ts               含 GitHub Pages 的路徑設定
 ├── tsconfig.json
 ├── package.json
-├── .env.example                 金鑰欄位範本（沒有真值，可以 commit）
+├── .env.example                 金鑰欄位範本（沒有真值，可以 commit）；階段二的欄位名稱為 VITE_SUPABASE_URL、VITE_SUPABASE_PUBLISHABLE_KEY
 ├── .env.local                   真正的金鑰（已在 .gitignore，不會上傳）
 └── .gitignore
 ```

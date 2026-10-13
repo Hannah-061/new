@@ -1,0 +1,44 @@
+{
+  "app": { "title": "Anonymous Chat" },
+  "entry": {
+    "intro": "No sign-up. Pick a nickname and step in. Everyone shares one room, and nobody knows who you are.",
+    "nicknameLabel": "Your nickname",
+    "nicknameHint": "2 to 10 characters: Chinese, letters or numbers",
+    "submit": "Enter chat",
+    "joining": "Connecting…",
+    "privacy": "Everyone can read what you write here. Don't share anything private.",
+    "demo": "Demo mode: messages stay in your browser"
+  },
+  "errors": {
+    "length": "A nickname needs 2 to 10 characters.",
+    "chars": "Use only Chinese characters, letters and numbers.",
+    "NICKNAME_TAKEN": "That nickname is in use. Pick another one.",
+    "NICKNAME_RESERVED": "That nickname was just used and is held for its owner for about 5 minutes. Pick another one, or try again later.",
+    "CONNECTION_FAILED": "Can't connect. Please try again later."
+  },
+  "room": {
+    "online": "{{count}} online",
+    "expandList": "Show who's online, {{count}} online now",
+    "collapseList": "Hide who's online, {{count}} online now",
+    "leave": "Leave",
+    "leaveAria": "Leave chat",
+    "listAria": "Who's online",
+    "listTitle": "{{count}} online now",
+    "closeList": "Close the online list",
+    "you": "You",
+    "newMessages": "New messages",
+    "emptyTitle": "No one has spoken yet",
+    "emptyBody": "You're the first one here. Say hello,\nsomeone may drop by.",
+    "joined": "{{nickname}} joined the chat",
+    "left": "{{nickname}} left the chat",
+    "sending": "Sending",
+    "failed": "Failed to send. Tap to retry",
+    "slowDown": "Slow down a little",
+    "remaining": "{{count}} characters left",
+    "inputLabel": "Message",
+    "placeholder": "Say something…",
+    "placeholderDesktop": "Say something… (Enter to send, Shift + Enter for a new line)",
+    "send": "Send",
+    "sendAria": "Send message"
+  }
+}

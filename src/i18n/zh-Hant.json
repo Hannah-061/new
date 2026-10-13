@@ -1,0 +1,44 @@
+{
+  "app": { "title": "匿名聊天室" },
+  "entry": {
+    "intro": "不用註冊，取個代號就能進來。所有人都在同一個房間，沒人知道你是誰。",
+    "nicknameLabel": "你的代號",
+    "nicknameHint": "2 到 10 個字，可用中文、英文與數字",
+    "submit": "進入聊天室",
+    "joining": "連線中…",
+    "privacy": "這裡的訊息所有人都看得到，請不要分享私密資訊。",
+    "demo": "示範模式：訊息只存在你的瀏覽器"
+  },
+  "errors": {
+    "length": "代號要 2 到 10 個字。",
+    "chars": "代號只能用中文、英文和數字。",
+    "NICKNAME_TAKEN": "這個代號已被使用，請換一個。",
+    "NICKNAME_RESERVED": "這個代號剛被使用過，約 5 分鐘內保留給原本的人。請換一個，或稍後再試。",
+    "CONNECTION_FAILED": "無法連線，請稍後再試。"
+  },
+  "room": {
+    "online": "{{count}} 人在線",
+    "expandList": "展開線上名單，目前 {{count}} 人在線",
+    "collapseList": "收起線上名單，目前 {{count}} 人在線",
+    "leave": "離開",
+    "leaveAria": "離開聊天室",
+    "listAria": "線上名單",
+    "listTitle": "目前在線 {{count}} 人",
+    "closeList": "關閉線上名單",
+    "you": "你",
+    "newMessages": "有新訊息",
+    "emptyTitle": "還沒有人說話",
+    "emptyBody": "你是第一個。先打個招呼吧，\n等等也許有人會經過。",
+    "joined": "{{nickname}} 加入了聊天室",
+    "left": "{{nickname}} 離開了聊天室",
+    "sending": "傳送中",
+    "failed": "傳送失敗，點一下重送",
+    "slowDown": "慢一點，等一下再送",
+    "remaining": "還剩 {{count}} 字",
+    "inputLabel": "訊息內容",
+    "placeholder": "說點什麼…",
+    "placeholderDesktop": "說點什麼…（Enter 送出，Shift + Enter 換行）",
+    "send": "送出",
+    "sendAria": "送出訊息"
+  }
+}
